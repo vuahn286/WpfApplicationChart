@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit">
+      <HintPath>..\..\..\..\Downloads\Compressed\WpfToolkitChart\WpfToolkitChart\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFToolkit">
+      <HintPath>..\..\..\..\Downloads\Compressed\WpfToolkitChart\WpfToolkitChart\bin\Debug\WPFToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WpfToolkitChart">
+      <HintPath>..\..\..\..\Downloads\Compressed\WpfToolkitChart\WpfToolkitChart\bin\Debug\WpfToolkitChart.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
